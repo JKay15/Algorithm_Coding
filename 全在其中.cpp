@@ -28,6 +28,5 @@ int main(){
     vis[24][0]=1;
     dfs(n,24,0);
     cout<<total<<endl;
-    
     return 0;
 }
