@@ -42,8 +42,8 @@ int main(){
     while(cin>>n&&n){
         ans=0;
         for(int i=0;i<n;i++)cin>>num[i];
-        // sorting(0,n-1);
-        maopao();
+        sorting(0,n-1);
+        // maopao();
         cout<<ans<<"\n";
     }
     return 0;

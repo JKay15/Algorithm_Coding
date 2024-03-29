@@ -7,6 +7,7 @@ struct cmp{
     }
 };
 int main(){
+    freopen("/Users/xiongjiangkai/Desktop/OJ18164-剪绳子/1.in","r",stdin);
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin>>n;
