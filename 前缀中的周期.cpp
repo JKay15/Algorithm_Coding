@@ -26,7 +26,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int n;
-#define maxn 100
+#define maxn 1000005
 char s[maxn];
 int f[maxn],b[maxn];
 int main(){

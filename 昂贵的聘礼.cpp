@@ -39,7 +39,6 @@ int dfs(int num, int total)
     dp[num] = tmp - total;
     return tmp;
 }
-
 int main()
 {
     ios::sync_with_stdio(false);

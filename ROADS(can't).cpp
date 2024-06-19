@@ -35,7 +35,7 @@ void add2(int u,int v,int w,int c) {
 	r[totr].ne = read[u];
 	read[u] = totr;
 }
-void Dijkstra() {
+void Dijkstra(){
 	memset(Dis,INF,sizeof Dis);
 	priority_queue<Point>pq;
 	Point now,cur;
